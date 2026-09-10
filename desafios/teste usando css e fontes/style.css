@@ -1,0 +1,55 @@
+@charset "UTF-8"
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+@font-face {
+    font-family: "natal" ;
+    src: url("fonts/MerryChristmasFlake.ttf") format("truetype");
+    
+}
+
+@font-face {
+    font-family:"feriado" ;
+    src: url("fonts/exmouth_.ttf") format("truetype");
+}
+
+body{
+    background-image: linear-gradient(to bottom, #027333, #03A65A);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #025727a1;
+}
+
+p{
+    text-align: justify;
+}
+h1{
+text-align: center;
+font-family: "natal";
+font-weight: normal;
+font-size: 3em;
+color:#F22E2E ;
+text-shadow: 0,8px 0,8px 1px #8f1b1b;
+}
+
+h2{
+    font-family: "natal";
+    font-weight: normal;
+    font-size: 2em;
+    color: #BF1F2C;
+}
+
+p{
+    font-family: "feriado";
+    font-size: 2em;
+    font-weight: 400;
+}

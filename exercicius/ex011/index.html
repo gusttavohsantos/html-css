@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente ou diminua o tamanho da tela</p>
+   <picture>
+    <source media="(max-width:750px )" srcset="imagens/img.pequena.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="imagens/img.media.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="imagens/img.grande.png" type="image/png">
+    <img src="imagens/img.grande.png" alt="imagens flexível">
+   </picture>
+   <!-- Sempre que for fazer essa função não esquecer de salvar as fotos sem espaços no nome e verificar se a tag está escrita corretamente-->
+    <h1>Reproduzindo Àudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/A Stroll - The Grey Room _ Density & Time.mp3" controls autoplay></audio>
+    <!-- temos dois tipos de audio os mp3, ogg, wav-->
+     <p>outra maneira de adcionar os audios</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Truck Driving in Parking Structure.mp3" type="audio/mpeg">
+        <source src="midia/Truck Driving in Parking Structure.ogg" type="audio/ogg">
+        <source src="midia/Truck Driving in Parking Structure.wav" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Truck Driving in Parking Structure.mp3">clique aqui para baixar o arquivo</a></p>
+    </audio>
+    <!--essa é a maneira mais completa de se adicionar um áudio no seu site-->
+    <!--o formato wav não é recomendado pois são arquivos muito grandes-->
+    <!--também é possivel baixar vídeos pelo Pexels-->
+    
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"Cardinal";
+    src: url("fonts/Cardinal.ttf") format(truetype), url("fonts/Cardinal-Alternate.ttf") format(truetype);
+}
+
+*{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: #77612A;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px #15110656;
+}
+
+body{
+    background-color:#55451ec8 ;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px #322811;
+    background-color: white;
+    color: #846b2e;
+    font-family:"Cardinal";
+   
+}
+
+h2{
+    color: #d7af4a;
+}
+
+p{
+    text-indent: 10px;
+}
