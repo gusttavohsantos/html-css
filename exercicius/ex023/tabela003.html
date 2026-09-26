@@ -4,11 +4,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
+   <style>
+
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    caption{
+        background-color: lightgray;
+        padding: 10px;
+    }
+
+    table{
+        width: 500px;
+        border-collapse: collapse;
+        margin: auto;
+        position: relative;
+    }
+
+    thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background-color: rgb(50, 50, 50);
+
+    }
+
+    th{
+        border: 1px solid rgb(2, 2, 2);
+        padding: 8px;
+        background-color: rgb(50, 50, 50);
+        color: white;
+    }
+
+    tbody > tr:nth-child(even){
+        background-color: lightgray;
+    }
+
+    td{
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+    td.quantidade{
+        text-align: right;
+    }
+
+   </style>
 </head>
 <body>
     <h1>Mesclagem de células</h1>
     <table>
-        
+        <caption>
+            Cidades que já visitei aqui em Pernambuco
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">
+                    Cidades
+                </th>
+                <th scope="col">
+                    Quantas vezes fui
+                </th>
+            </tr>
+        </thead>
+<tbody>
+    <tr>
+        <td>
+            Bom Jardim
+        </td>
+        <td class="quantidade">
+            Várias vezes
+        </td>
+    </tr>
+    <tr>
+        <td>
+            João Alfredo
+        </td>
+        <td class="quantidade">
+            Várias vezes 
+        </td>
+        <tr>
+            <td>
+                Orobó 
+            </td>
+            <td class="quantidade">
+                Várias vezes 
+            </td>
+            <tr>
+<td>
+    Salgadinho
+</td>
+<td class="quantidade">
+    1 
+</td>
+<tr>
+    <td>
+        Limoeiro
+    </td>
+    <td class="quantidade"> 
+        Várias vezes 
+    </td>
+    <tr>
+        <td>
+            Feira Nova 
+        </td>
+        <td class="quantidade">
+            1
+        </td>
+        <tr>
+            <td>Gloria do Goitá</td>
+            <td class="quantidade">1 </td>
+        </tr>
+        <tr>
+            <td>Vitória de Santo Antão</td>
+            <td class="quantidade">1 </td>
+        </tr>
+        <tr>
+            <td>Moreno</td>
+            <td class="quantidade">1 </td>
+        </tr>
+        <tr>
+            <td>Lagoa do Carro</td>
+            <td class="quantidade">Várias vezes</td>
+        </tr>
+        <tr>
+            <td>Carpina</td>
+            <td class="quantidade">Várias vezes</td>
+        </tr>
+        <tr>
+            <td>Recife</td>
+            <td class="quantidade">Várias vezes</td>
+        </tr>
+        <tr>
+            <td>Porto de Galinhas</td>
+            <td class="quantidade">Várias vezes</td>
+        </tr>
+        <tr>
+            <td>Vertente do Lério</td>
+            <td class="quantidade">Algumas vezes</td>
+        </tr>
+        <tr>
+            <td>Frei Miguelinho</td>
+            <td class="quantidade">4</td>
+        </tr>
+        <tr>
+            <td>Santa Maria do Cambucá</td>
+            <td class="quantidade">várias vezes</td>
+        </tr>
+        <tr>
+            <td>Vertentes</td>
+            <td class="quantidade">Algumas vezes</td>
+            <tr>
+                <td>Taguaritinga do Norte</td>
+                <td class="quantidade">2</td>
+            </tr>
+            <tr>
+                <td>Toritama</td>
+                <td class="quantidade">5</td>
+                <tr>
+                    <td> Santa Cruz do Capibaribe</td>
+                    <td class="quantidade">3</td>
+                </tr>
+                <tr>
+                    <td>Caruaru</td>
+                    <td class="quantidade">Várias vezes</td>
+                </tr>
+                <tr>
+                    <td>Bezerros</td>
+                    <td class="quantidade">1</td>
+                </tr>
+                <tr>
+                    <td>Cupira</td>
+                    <td class="quantidade">1</td>
+                </tr>
+                <tr>
+                    <td>Belo Jardim</td>
+                    <td class="quantidade">1</td>
+                </tr>
+            </tr>
+        </tr>
+    </tr>
+           
+        </tbody>
+        <tfoot>
+           
+        </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae veritatis ut itaque odit cumque aut. Commodi, voluptate soluta porro, at dolorem eius natus modi maxime nemo nulla consectetur ad. Distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aliquam ad modi sapiente harum doloribus quidem soluta excepturi rerum, porro ea aspernatur omnis quaerat dolorum voluptatibus, provident, illum sunt eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt minus, soluta nulla atque omnis eaque fuga quam, autem illo deleniti dolores itaque culpa reprehenderit quibusdam repellat consequuntur similique iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos dolorem nisi modi omnis quidem, voluptatibus ex error nesciunt maxime? Non laboriosam necessitatibus quam provident, vero expedita reprehenderit? Distinctio, nam.</p>     
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae veritatis ut itaque odit cumque aut. Commodi, voluptate soluta porro, at dolorem eius natus modi maxime nemo nulla consectetur ad. Distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aliquam ad modi sapiente harum doloribus quidem soluta excepturi rerum, porro ea aspernatur omnis quaerat dolorum voluptatibus, provident, illum sunt eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt minus, soluta nulla atque omnis eaque fuga quam, autem illo deleniti dolores itaque culpa reprehenderit quibusdam repellat consequuntur similique iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos dolorem nisi modi omnis quidem, voluptatibus ex error nesciunt maxime? Non laboriosam necessitatibus quam provident, vero expedita reprehenderit? Distinctio, nam.</p>     
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae veritatis ut itaque odit cumque aut. Commodi, voluptate soluta porro, at dolorem eius natus modi maxime nemo nulla consectetur ad. Distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aliquam ad modi sapiente harum doloribus quidem soluta excepturi rerum, porro ea aspernatur omnis quaerat dolorum voluptatibus, provident, illum sunt eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt minus, soluta nulla atque omnis eaque fuga quam, autem illo deleniti dolores itaque culpa reprehenderit quibusdam repellat consequuntur similique iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos dolorem nisi modi omnis quidem, voluptatibus ex error nesciunt maxime? Non laboriosam necessitatibus quam provident, vero expedita reprehenderit? Distinctio, nam.</p>     
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae veritatis ut itaque odit cumque aut. Commodi, voluptate soluta porro, at dolorem eius natus modi maxime nemo nulla consectetur ad. Distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem aliquam ad modi sapiente harum doloribus quidem soluta excepturi rerum, porro ea aspernatur omnis quaerat dolorum voluptatibus, provident, illum sunt eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt minus, soluta nulla atque omnis eaque fuga quam, autem illo deleniti dolores itaque culpa reprehenderit quibusdam repellat consequuntur similique iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos dolorem nisi modi omnis quidem, voluptatibus ex error nesciunt maxime? Non laboriosam necessitatibus quam provident, vero expedita reprehenderit? Distinctio, nam.</p>     
 </body>
 </html>
