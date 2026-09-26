@@ -15,6 +15,7 @@
         table{
             border-collapse: collapse;
             width: 500px;
+            margin: auto;
         }
 
         th, td{
@@ -49,20 +50,21 @@
     <table>
         <thead>
             <tr>
-                <th colspan="2" rowspan="2">Área</th>
-                <th colspan="2" rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
+                <th colspan="2" rowspan="2" scope="col">Área</th>
+                <th colspan="2" rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup
+                ">Notas</th>
                 
-                <th colspan="2" rowspan="2">Média</th>
+                <th colspan="2" rowspan="2" scope="col">Média</th>
             </tr>
             <tr>
-                <th>nota 1</th>
-                <th>nota 2</th>
+                <th scope="col">nota 1</th>
+                <th scope="col">nota 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4" colspan="2">Exatas</th>
+                <th rowspan="4" colspan="2" scope="rowgroup">Exatas</th>
                 <td colspan="2">Matemática</td>
                 <td class="nota">00</td>
                 <td class="nota">00</td>
@@ -87,11 +89,11 @@
                 <td class="nota">00</td>
             </tr>
             <tr>
-                <th colspan="6" class="media">Média de Exatas</th>
+                <th colspan="6" class="media" scope="row">Média de Exatas</th>
                 <td class="nota" id="media">00</td>
             </tr>
             <tr>
-                <th colspan="2" rowspan="2">Humanas</th>
+                <th colspan="2" rowspan="2" scope="rowgroup">Humanas</th>
                 <td colspan="2">História</td>
                 <td class="nota">00</td>
                 <td class="nota">00</td>
@@ -104,7 +106,7 @@
                 <td class="nota">00</td>
             </tr>
             <tr>
-                <th colspan="6" class="media">Média de Humanas</th>
+                <th colspan="6" class="media" scope="row">Média de Humanas</th>
                 <td class="nota" id="media">00</td>
             </tr>
         </tbody>
