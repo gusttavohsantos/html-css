@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Formulários</title>
+
+    <style>
+        input.mascote{
+            width: 100px;
+            height: 100px;
+            
+        }
+    </style>
+
+
+</head>
+<body>
+   <h1 style="text-align: center;">Testando Formulários</h1>
+   
+   <form action="cadastro.php" method="post">
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <p>
+            <label for="itel">Número:</label>
+            <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\).\d{1}.\d{4}-\d{4}$" placeholder="(xx) x xxxx-xxxx">
+        </p>
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" placeholder="name@gmail.com">
+        </p>
+        <p>
+            <input type="image" src="../ex024/imagens/mascote.png" alt="mascote" class="mascote">
+        </p>
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Excluir">
+    </p>
+   </form>
+</body>
+</html>
