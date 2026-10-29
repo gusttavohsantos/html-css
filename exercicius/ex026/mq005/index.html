@@ -10,8 +10,8 @@
 <body>
     <header>
         <h1>Meu Site</h1>
-        <span class="material-symbols-outlined" id="burguer">menu</span>
-        <menu>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
+        <menu id="itens">
            <ul>
                <li><a href="#">Opção 1</a></li>
                <li><a href="#">Opção 2</a></li>
@@ -29,5 +29,15 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quae labore beatae facere quisquam eaque cupiditate! Voluptas earum qui nisi nam est nostrum, deleniti corporis vel ullam rem libero enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quidem vero sed amet qui atque temporibus modi voluptatem nemo quibusdam accusamus similique commodi id, tempora autem dolor voluptas laborum consequatur.</p>
         </article>
     </main>
+    <script>
+       function clickMenu(){
+        var itens = ducument.getElementByld("itens")
+        if (itens.style.display == 'block'){
+            itens.style.display = 'none'
+        }else{
+            itens.style.display = 'block'
+        }
+       }
+    </script>
 </body>
 </html>

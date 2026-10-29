@@ -24,10 +24,12 @@ header > menu{
     background-color: rgb(98, 97, 97);
 }
 
-menu{
-    display: block;
+menu > ul{
+    display: none;
     
 }
+
+
 
 span#burguer{
     background-color: rgb(51, 51, 51);
