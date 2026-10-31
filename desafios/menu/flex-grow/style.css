@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 400px;
+    
+    display: flex;
+    gap: 5px;
+}
+
+.box{
+    background-color: brown;
+    height: 100%;
+    width: 20%;
+     transition: 1s ease-in;
+}
+
+.box1{
+    flex-grow: 1;
+    background-image: url("imagens/01.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.box2{
+    flex-grow: 1;
+    background-image: url("imagens/02.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.box3{
+    flex-grow: 1;
+    background-image: url("imagens/03.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.box:hover{
+    flex-grow: 3;
+    transition: 1s ease-in;
+}
